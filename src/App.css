@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+.directory-image {
+  width: 75px;
+  border-radius: 10px;
+}
+
+.directory-entry{
+  width: 18rem;
+}
+
+.card-text {
+  font-size: .9rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
