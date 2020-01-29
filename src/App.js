@@ -45,7 +45,7 @@ class App extends React.Component {
             <div key={index} className="card directory-entry col">
               <img src={employee.image} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">{employee.firstName} {employee.lastName}</h5>
+                <h5 className="card-title">{employee.firstName}</h5>
                 <div className="card-text mb-2 text-left">
                   <p className="mb-1">From: {employee.from}</p>
                   <p className="mb-1">Phone: {employee.phone}</p>
